@@ -35,7 +35,7 @@
 > chown -R $USER:$USER .kodi
 
 ## it does not work with flatpak installation?!
-> mv ~/.kodi ~/.var/app/tv.kodi.Kodi/data/
+> ln -s ~/.kodi ~/.var/app/tv.kodi.Kodi/data/
 
 ## how do i get resolutions beyond 720p?
 gamemode: properties: set another resolution there.
